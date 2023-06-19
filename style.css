@@ -650,7 +650,6 @@ form label, form legend {
 		background: red;
 	}
 	.main-curiosidades ul{
-		display: flex;
-		flex-wrap: wrap;
+		display: block;
 	}
 }
