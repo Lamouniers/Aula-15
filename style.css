@@ -652,4 +652,7 @@ form label, form legend {
 	.main-curiosidades ul{
 		display: block;
 	}
+	.main-curiosidades li{
+		display: block;
+	}
 }
