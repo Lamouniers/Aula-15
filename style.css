@@ -660,12 +660,15 @@ form label, form legend {
 }
 
 @media screen and (max-width: 480px) {
-	body{
-		
-	}
-	section{
+	
+	.navegacao nav li {
+		display: block;
+		margin: 1% 0px;
 	}
 
+	nav a{
+		font-size: 25px;
+	}
 	.simbolos{
 		display: block;
 	}
