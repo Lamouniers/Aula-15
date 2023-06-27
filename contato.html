@@ -3,6 +3,7 @@
 
 <head>
      <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width">
      <title>Peiropolis</title>
      <link rel="stylesheet" href="reset.css">
      <link rel="stylesheet" href="style.css">
@@ -11,11 +12,12 @@
 </head>
 
 <body>
+     <!------------------------------------------ CABECALHO ----------------------------------------------------->
      <header>
           <div class="navegacao">
                <nav>
                     <ul>
-                         <li><a href="index.html">Peirópolis</a></li>
+                         <li><img src="logo.png"></li>
                          <li><a href="index.html">Home</a></li>
                          <li><a href="sobre.html">Sobre</a></li>
                          <li><a href="curiosidades.html">Curiosidades</a></l>
@@ -25,6 +27,7 @@
           </div>
      </header>
      <main>
+          <h2>Ficou com alguma dúvida? Entre em contato:</h2>
          <form>
                <label for="nomesobrenome">Nome e sobrenome</label>
                <input type="text" id="nomesobrenome" class="input-padrao" required>
@@ -37,7 +40,14 @@
 
                <label for="mensagem">Mensagem</label>
                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
-
+               <fieldset>
+                    <legend>Já visitou Peirópolis?</legend>
+                    <select>
+                         <option>Sim</option>
+                         <option>Não</option>
+                    </select>
+               </fieldset>
+               <br>
                <fieldset>
                     <legend>Como prefere o nosso contato?</legend>
 
@@ -47,23 +57,21 @@
                          
                     <label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
                </fieldset>
-               <fieldset>
-                    <legend>Qual horário prefere ser atendido?</legend>
-                    <select>
-                         <option>Manhã</option>
-                         <option>Tarde</option>
-                         <option>Noite</option>
-                    </select>
-               </fieldset>
-               <br>
-               <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+               
+               
                <input type="submit" value="Enviar formulario" class="enviar">
-
           </form> 
      </main>
      <footer>
           <div class="footer">
-              <p>rodape</p> 
+               <a href="https://www.instagram.com/" target="blank"><img src="redes.png" alt="redes sociais"></a>
+               <div class="inscricao-peiropolis">
+                    <h4>Mantenha-se atualizado sobre o que acontece em peirópolis</h4>
+                    <div>
+                         <input type="submit" value="Inscrever-se" class="inscrever">
+                         <input type="email" class="footer-email" required placeholder="seuemail@dominio.com">
+                    </div>
+               </div>
           </div>
      </footer>
 </body>

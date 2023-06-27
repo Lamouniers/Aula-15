@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
 		<title>Sobre o geossítio</title>
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="style.css">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 	</head>
 	<body>
+		<!------------------------------------------ CABECALHO ----------------------------------------------------->
 		<header>
-			<div class="navegacao">
-				<nav>
-					<ul>
-						<li><a href="index.html">Peirópolis</a></li>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="sobre.html">Sobre</a></li>
-						<li><a href="curiosidades.html">Curiosidades</a></li>
-						<li><a href="contato.html">Contato</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
+          <div class="navegacao">
+               <nav>
+                    <ul>
+                         <li><img src="logo.png"></li>
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="sobre.html">Sobre</a></li>
+                         <li><a href="curiosidades.html">Curiosidades</a></l>
+                         <li><a href="contato.html">Contato</a></li>
+                    </ul>
+               </nav>
+          </div>
+     </header>
 		<main class="main-sobre">
 			<section class="section-geossitio">
 				<h2>Geossítio Peirópolis</h2>
@@ -39,8 +41,14 @@
 		</main>
 		<footer>
           <div class="footer">
-               <div class="inscricao-peiropolis"><h4>Mantenha-se atualizado sobre o que acontece em peirópolis</h4></div>
-              <p>rodape</p> 
+               <a href="https://www.instagram.com/" target="blank"><img src="redes.png" alt="redes sociais"></a>
+               <div class="inscricao-peiropolis">
+                    <h4>Mantenha-se atualizado sobre o que acontece em peirópolis</h4>
+                    <div>
+                         <input type="submit" value="Inscrever-se" class="inscrever">
+                         <input type="email" class="footer-email" required placeholder="seuemail@dominio.com">
+                    </div>
+               </div>
           </div>
      </footer>
 	</body>
